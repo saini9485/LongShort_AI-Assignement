@@ -1,0 +1,47 @@
+.main-container{
+    /* background-color: rgb(171, 253, 196); */
+    border-radius: 10px;
+}
+
+.profile-container{
+    display: flex;
+}
+.profile-logo img{
+    width: 50px;
+    height: 50px;
+}
+.profile-text {
+    margin: 0%;
+    padding: 0%;
+}
+
+.changePlane-btn{
+    margin-bottom: 10px;
+    display: flex; 
+    height: 25px;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+     background: #38a830; 
+     color: white;
+    border-radius: 5px;
+    border: none;
+}
+.product-map{
+    display: flex;
+gap: 5px;
+margin-bottom: 10px;
+}
+.new{
+    display: flex;
+    gap: 5px;
+    margin-left: 10px;
+}
+.collapse{
+    display: flex;
+    gap: 8px;
+}
+.arrow{
+    height: 20px;
+    width: 20px;
+}

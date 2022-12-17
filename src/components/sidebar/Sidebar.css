@@ -1,0 +1,60 @@
+.img img{
+    height: 40px;
+    width: 130px;
+  }
+  .sidebar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 0;
+    background-color: white;
+  }
+  
+  /*************** navigation links CSS ***************/
+  .nav-menu {
+    width: 100%;
+    height: 100%;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .menuItem {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    margin: 0.4rem 0;
+    padding: 0.4rem .5rem;
+    color: #333333;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: all 300ms ease;
+  }
+  
+  .menuItem svg {
+    color: #333333;
+    font-size: 1.4rem;
+  }
+  
+  .active {
+    /* color: #ffffff; */
+    color: black;
+    /* background: #38a830; */
+    border-radius: 5px;
+  }
+  
+  .active svg {
+    /* color: #ffffff; */
+    color: black;
+  }
+  
+  
+  /*************** responsiveness CSS ***************/
+  @media screen and (max-width: 1300px) {
+    .help-box{
+      display: none;
+    }
+  }
+  
