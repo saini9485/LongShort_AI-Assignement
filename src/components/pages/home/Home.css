@@ -3,7 +3,7 @@
   padding: 0%;
 }
 .home-main-container {
-  height: 100vh;
+  height: 120vh;
   width: 100%;
   border-radius: 10px;
   background-color: aliceblue;
@@ -35,8 +35,8 @@
   background-color: white; */
 }
 .middle-top-container {
-  width: 60%;
-  border: 2px solid black;
+  width: 70%;
+  /* border: 2px solid black; */
   margin: auto;
   padding: 10px;
 }
@@ -63,4 +63,9 @@ background-color: rgb(147, 147, 247);
   font-size: 1.12rem; */
   /* background-color: transparent; */
 
+}
+.table-data-container{
+  margin-top: 10px;
+  background-color: white;
+  border-radius: 10px;
 }

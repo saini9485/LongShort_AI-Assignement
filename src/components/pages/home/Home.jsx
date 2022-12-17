@@ -1,8 +1,10 @@
-import React from "react";
+import React,{useState} from "react";
+import { tableData } from "../../sidebar/data/Data";
 
 import "./Home.css";
 
 export function Home() {
+  const [table, setTable] = useState(tableData.raw_broadmatch_data);
   return (
     <>
       <div className="home-main-container">
@@ -113,8 +115,39 @@ export function Home() {
                 <button className="add-btn">Add To List</button>
               </div>
             </div>
-            <div className="table-data">
-              <h4>tableData</h4>
+            <div className="table-data-container">
+            <div className="table-responsive">
+          <table className="table text-top">
+            <thead>
+              <tr>
+                <th>
+                  <input type="checkbox" />
+                </th>
+                {tableData.columnNames.map((item) => (
+                  <th>{item}</th>
+                ))}
+              </tr>
+            </thead>
+            <tbody>
+              {table.map((item) => {
+                return (
+                  <tr>
+                    <td>
+                      <input type="checkbox" />
+                    </td>
+                    <td>{item[0]}</td>
+                    <td>{item[1]}</td>
+                     <td>{item[2]}</td>
+                    <td>{item[3]}</td> 
+                     <td>{item[4]}</td>
+                    <td>{item[7]}</td> 
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
+        </div>
+              {/* <h4>tableData</h4> */}
             </div>
           </div>
         </div>

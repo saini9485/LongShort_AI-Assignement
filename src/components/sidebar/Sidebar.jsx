@@ -32,7 +32,9 @@ export function Sidebar() {
           );
         })}
       </div>
-      <Profile/>
+      <div style={{marginTop:"70px"}}>
+        <Profile/>
+      </div>
       </div>
     </div>
     </>

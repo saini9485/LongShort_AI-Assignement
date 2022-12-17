@@ -57,19 +57,19 @@ export const SidebarData = [
     },
 ]
 
-export const homeData = {
+export const tableData = {
     "topic": "shopping in barcelona",
     "country": "us",
     "phrase_search": "fullsearch",
     "columnNames": [
       "Keyword",
       "Search Volume",
-      "Intent",
-      "CPC",
-      "Competition",
-      "Number of Results",
-      "Trends",
-      "Keyword Difficulty"
+       "Intent",
+       "CPC",
+       "Competition",
+       "Number of Results",
+      // "Trends",
+      // "Keyword Difficulty"
     ],
     "raw_related_data": [
         [
