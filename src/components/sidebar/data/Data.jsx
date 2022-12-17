@@ -65,9 +65,9 @@ export const tableData = {
       "Keyword",
       "Search Volume",
        "Intent",
-       "CPC",
        "Competition",
        "Number of Results",
+        "CPC",
       // "Trends",
       // "Keyword Difficulty"
     ],
